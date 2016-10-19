@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17828E361DB5FD7000E40E2B /* XLJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E351DB5FD7000E40E2B /* XLJTabBar.m */; };
+		17828E3A1DB5FE4800E40E2B /* XLJFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E391DB5FE4800E40E2B /* XLJFirstController.m */; };
+		17828E3D1DB5FE5800E40E2B /* XLJSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E3C1DB5FE5800E40E2B /* XLJSecondController.m */; };
+		17828E401DB5FE6300E40E2B /* XLJThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E3F1DB5FE6300E40E2B /* XLJThirdController.m */; };
+		17828E431DB5FE7400E40E2B /* XLJFourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E421DB5FE7400E40E2B /* XLJFourController.m */; };
+		17828E461DB5FE8D00E40E2B /* XLJFiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E451DB5FE8D00E40E2B /* XLJFiveController.m */; };
+		17828E491DB5FEFA00E40E2B /* XLJBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E481DB5FEFA00E40E2B /* XLJBaseController.m */; };
+		17828E4C1DB70FF700E40E2B /* XLJTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E4B1DB70FF700E40E2B /* XLJTabBarButton.m */; };
+		17828E4F1DB76CA700E40E2B /* XLJTestGepController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17828E4E1DB76CA700E40E2B /* XLJTestGepController.m */; };
+		17DCDF6E1DB4BF2E00AF3EF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCDF6D1DB4BF2E00AF3EF6 /* main.m */; };
+		17DCDF791DB4BF2E00AF3EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DCDF781DB4BF2E00AF3EF6 /* Assets.xcassets */; };
+		17DCDF7C1DB4BF2E00AF3EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DCDF7A1DB4BF2E00AF3EF6 /* LaunchScreen.storyboard */; };
+		17DCDF871DB4BF2E00AF3EF6 /* XLJSegScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCDF861DB4BF2E00AF3EF6 /* XLJSegScrollViewTests.m */; };
+		17DCDF921DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCDF911DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests.m */; };
+		17DCDFA21DB4BFE900AF3EF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCDFA11DB4BFE900AF3EF6 /* AppDelegate.m */; };
+		17DCDFAA1DB4BFF000AF3EF6 /* XLJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCDFA61DB4BFF000AF3EF6 /* XLJNavigationController.m */; };
+		17DCDFAB1DB4BFF000AF3EF6 /* XLJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCDFA81DB4BFF000AF3EF6 /* XLJTabBarController.m */; };
+		17DCDFB11DB4C18400AF3EF6 /* UIBarButtonItem+XLJButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DCDFB01DB4C18400AF3EF6 /* UIBarButtonItem+XLJButtonItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17DCDF831DB4BF2E00AF3EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DCDF611DB4BF2E00AF3EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DCDF681DB4BF2E00AF3EF6;
+			remoteInfo = XLJSegScrollView;
+		};
+		17DCDF8E1DB4BF2E00AF3EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DCDF611DB4BF2E00AF3EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DCDF681DB4BF2E00AF3EF6;
+			remoteInfo = XLJSegScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17828E341DB5FD7000E40E2B /* XLJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJTabBar.h; sourceTree = "<group>"; };
+		17828E351DB5FD7000E40E2B /* XLJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJTabBar.m; sourceTree = "<group>"; };
+		17828E381DB5FE4800E40E2B /* XLJFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJFirstController.h; sourceTree = "<group>"; };
+		17828E391DB5FE4800E40E2B /* XLJFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJFirstController.m; sourceTree = "<group>"; };
+		17828E3B1DB5FE5800E40E2B /* XLJSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJSecondController.h; sourceTree = "<group>"; };
+		17828E3C1DB5FE5800E40E2B /* XLJSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJSecondController.m; sourceTree = "<group>"; };
+		17828E3E1DB5FE6300E40E2B /* XLJThirdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJThirdController.h; sourceTree = "<group>"; };
+		17828E3F1DB5FE6300E40E2B /* XLJThirdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJThirdController.m; sourceTree = "<group>"; };
+		17828E411DB5FE7400E40E2B /* XLJFourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJFourController.h; sourceTree = "<group>"; };
+		17828E421DB5FE7400E40E2B /* XLJFourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJFourController.m; sourceTree = "<group>"; };
+		17828E441DB5FE8D00E40E2B /* XLJFiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJFiveController.h; sourceTree = "<group>"; };
+		17828E451DB5FE8D00E40E2B /* XLJFiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJFiveController.m; sourceTree = "<group>"; };
+		17828E471DB5FEFA00E40E2B /* XLJBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJBaseController.h; sourceTree = "<group>"; };
+		17828E481DB5FEFA00E40E2B /* XLJBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJBaseController.m; sourceTree = "<group>"; };
+		17828E4A1DB70FF700E40E2B /* XLJTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJTabBarButton.h; sourceTree = "<group>"; };
+		17828E4B1DB70FF700E40E2B /* XLJTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJTabBarButton.m; sourceTree = "<group>"; };
+		17828E4D1DB76CA700E40E2B /* XLJTestGepController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJTestGepController.h; sourceTree = "<group>"; };
+		17828E4E1DB76CA700E40E2B /* XLJTestGepController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJTestGepController.m; sourceTree = "<group>"; };
+		17DCDF691DB4BF2E00AF3EF6 /* XLJSegScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLJSegScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DCDF6D1DB4BF2E00AF3EF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17DCDF781DB4BF2E00AF3EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17DCDF7B1DB4BF2E00AF3EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17DCDF7D1DB4BF2E00AF3EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DCDF821DB4BF2E00AF3EF6 /* XLJSegScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLJSegScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DCDF861DB4BF2E00AF3EF6 /* XLJSegScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLJSegScrollViewTests.m; sourceTree = "<group>"; };
+		17DCDF881DB4BF2E00AF3EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DCDF8D1DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLJSegScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DCDF911DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLJSegScrollViewUITests.m; sourceTree = "<group>"; };
+		17DCDF931DB4BF2E00AF3EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DCDFA01DB4BFE900AF3EF6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17DCDFA11DB4BFE900AF3EF6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17DCDFA51DB4BFF000AF3EF6 /* XLJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJNavigationController.h; sourceTree = "<group>"; };
+		17DCDFA61DB4BFF000AF3EF6 /* XLJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJNavigationController.m; sourceTree = "<group>"; };
+		17DCDFA71DB4BFF000AF3EF6 /* XLJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJTabBarController.h; sourceTree = "<group>"; };
+		17DCDFA81DB4BFF000AF3EF6 /* XLJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJTabBarController.m; sourceTree = "<group>"; };
+		17DCDFAF1DB4C18400AF3EF6 /* UIBarButtonItem+XLJButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XLJButtonItem.h"; sourceTree = "<group>"; };
+		17DCDFB01DB4C18400AF3EF6 /* UIBarButtonItem+XLJButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XLJButtonItem.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DCDF661DB4BF2E00AF3EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DCDF7F1DB4BF2E00AF3EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DCDF8A1DB4BF2E00AF3EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17828E371DB5FE1D00E40E2B /* OtherView */ = {
+			isa = PBXGroup;
+			children = (
+				17828E381DB5FE4800E40E2B /* XLJFirstController.h */,
+				17828E391DB5FE4800E40E2B /* XLJFirstController.m */,
+				17828E3B1DB5FE5800E40E2B /* XLJSecondController.h */,
+				17828E3C1DB5FE5800E40E2B /* XLJSecondController.m */,
+				17828E3E1DB5FE6300E40E2B /* XLJThirdController.h */,
+				17828E3F1DB5FE6300E40E2B /* XLJThirdController.m */,
+				17828E411DB5FE7400E40E2B /* XLJFourController.h */,
+				17828E421DB5FE7400E40E2B /* XLJFourController.m */,
+				17828E441DB5FE8D00E40E2B /* XLJFiveController.h */,
+				17828E451DB5FE8D00E40E2B /* XLJFiveController.m */,
+				17828E4D1DB76CA700E40E2B /* XLJTestGepController.h */,
+				17828E4E1DB76CA700E40E2B /* XLJTestGepController.m */,
+			);
+			path = OtherView;
+			sourceTree = "<group>";
+		};
+		17DCDF601DB4BF2E00AF3EF6 = {
+			isa = PBXGroup;
+			children = (
+				17DCDF6B1DB4BF2E00AF3EF6 /* XLJSegScrollView */,
+				17DCDF851DB4BF2E00AF3EF6 /* XLJSegScrollViewTests */,
+				17DCDF901DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests */,
+				17DCDF6A1DB4BF2E00AF3EF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17DCDF6A1DB4BF2E00AF3EF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DCDF691DB4BF2E00AF3EF6 /* XLJSegScrollView.app */,
+				17DCDF821DB4BF2E00AF3EF6 /* XLJSegScrollViewTests.xctest */,
+				17DCDF8D1DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17DCDF6B1DB4BF2E00AF3EF6 /* XLJSegScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				17DCDFA31DB4BFF000AF3EF6 /* Classes */,
+				17DCDF9F1DB4BFE900AF3EF6 /* Others */,
+				17DCDF781DB4BF2E00AF3EF6 /* Assets.xcassets */,
+				17DCDF7A1DB4BF2E00AF3EF6 /* LaunchScreen.storyboard */,
+				17DCDF7D1DB4BF2E00AF3EF6 /* Info.plist */,
+				17DCDF6C1DB4BF2E00AF3EF6 /* Supporting Files */,
+			);
+			path = XLJSegScrollView;
+			sourceTree = "<group>";
+		};
+		17DCDF6C1DB4BF2E00AF3EF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17DCDF6D1DB4BF2E00AF3EF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17DCDF851DB4BF2E00AF3EF6 /* XLJSegScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				17DCDF861DB4BF2E00AF3EF6 /* XLJSegScrollViewTests.m */,
+				17DCDF881DB4BF2E00AF3EF6 /* Info.plist */,
+			);
+			path = XLJSegScrollViewTests;
+			sourceTree = "<group>";
+		};
+		17DCDF901DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17DCDF911DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests.m */,
+				17DCDF931DB4BF2E00AF3EF6 /* Info.plist */,
+			);
+			path = XLJSegScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		17DCDF9F1DB4BFE900AF3EF6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				17DCDFA01DB4BFE900AF3EF6 /* AppDelegate.h */,
+				17DCDFA11DB4BFE900AF3EF6 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		17DCDFA31DB4BFF000AF3EF6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17828E371DB5FE1D00E40E2B /* OtherView */,
+				17DCDFA41DB4BFF000AF3EF6 /* BaseClass */,
+				17DCDFA91DB4BFF000AF3EF6 /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		17DCDFA41DB4BFF000AF3EF6 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				17DCDFA51DB4BFF000AF3EF6 /* XLJNavigationController.h */,
+				17DCDFA61DB4BFF000AF3EF6 /* XLJNavigationController.m */,
+				17DCDFA71DB4BFF000AF3EF6 /* XLJTabBarController.h */,
+				17DCDFA81DB4BFF000AF3EF6 /* XLJTabBarController.m */,
+				17828E341DB5FD7000E40E2B /* XLJTabBar.h */,
+				17828E351DB5FD7000E40E2B /* XLJTabBar.m */,
+				17828E4A1DB70FF700E40E2B /* XLJTabBarButton.h */,
+				17828E4B1DB70FF700E40E2B /* XLJTabBarButton.m */,
+				17828E471DB5FEFA00E40E2B /* XLJBaseController.h */,
+				17828E481DB5FEFA00E40E2B /* XLJBaseController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		17DCDFA91DB4BFF000AF3EF6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				17DCDFAF1DB4C18400AF3EF6 /* UIBarButtonItem+XLJButtonItem.h */,
+				17DCDFB01DB4C18400AF3EF6 /* UIBarButtonItem+XLJButtonItem.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17DCDF681DB4BF2E00AF3EF6 /* XLJSegScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DCDF961DB4BF2E00AF3EF6 /* Build configuration list for PBXNativeTarget "XLJSegScrollView" */;
+			buildPhases = (
+				17DCDF651DB4BF2E00AF3EF6 /* Sources */,
+				17DCDF661DB4BF2E00AF3EF6 /* Frameworks */,
+				17DCDF671DB4BF2E00AF3EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLJSegScrollView;
+			productName = XLJSegScrollView;
+			productReference = 17DCDF691DB4BF2E00AF3EF6 /* XLJSegScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17DCDF811DB4BF2E00AF3EF6 /* XLJSegScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DCDF991DB4BF2E00AF3EF6 /* Build configuration list for PBXNativeTarget "XLJSegScrollViewTests" */;
+			buildPhases = (
+				17DCDF7E1DB4BF2E00AF3EF6 /* Sources */,
+				17DCDF7F1DB4BF2E00AF3EF6 /* Frameworks */,
+				17DCDF801DB4BF2E00AF3EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DCDF841DB4BF2E00AF3EF6 /* PBXTargetDependency */,
+			);
+			name = XLJSegScrollViewTests;
+			productName = XLJSegScrollViewTests;
+			productReference = 17DCDF821DB4BF2E00AF3EF6 /* XLJSegScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17DCDF8C1DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DCDF9C1DB4BF2E00AF3EF6 /* Build configuration list for PBXNativeTarget "XLJSegScrollViewUITests" */;
+			buildPhases = (
+				17DCDF891DB4BF2E00AF3EF6 /* Sources */,
+				17DCDF8A1DB4BF2E00AF3EF6 /* Frameworks */,
+				17DCDF8B1DB4BF2E00AF3EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DCDF8F1DB4BF2E00AF3EF6 /* PBXTargetDependency */,
+			);
+			name = XLJSegScrollViewUITests;
+			productName = XLJSegScrollViewUITests;
+			productReference = 17DCDF8D1DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DCDF611DB4BF2E00AF3EF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XLJ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XLJ;
+				TargetAttributes = {
+					17DCDF681DB4BF2E00AF3EF6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					17DCDF811DB4BF2E00AF3EF6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 17DCDF681DB4BF2E00AF3EF6;
+					};
+					17DCDF8C1DB4BF2E00AF3EF6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 17DCDF681DB4BF2E00AF3EF6;
+					};
+				};
+			};
+			buildConfigurationList = 17DCDF641DB4BF2E00AF3EF6 /* Build configuration list for PBXProject "XLJSegScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17DCDF601DB4BF2E00AF3EF6;
+			productRefGroup = 17DCDF6A1DB4BF2E00AF3EF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17DCDF681DB4BF2E00AF3EF6 /* XLJSegScrollView */,
+				17DCDF811DB4BF2E00AF3EF6 /* XLJSegScrollViewTests */,
+				17DCDF8C1DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DCDF671DB4BF2E00AF3EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DCDF7C1DB4BF2E00AF3EF6 /* LaunchScreen.storyboard in Resources */,
+				17DCDF791DB4BF2E00AF3EF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DCDF801DB4BF2E00AF3EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DCDF8B1DB4BF2E00AF3EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DCDF651DB4BF2E00AF3EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DCDFA21DB4BFE900AF3EF6 /* AppDelegate.m in Sources */,
+				17DCDFAA1DB4BFF000AF3EF6 /* XLJNavigationController.m in Sources */,
+				17828E431DB5FE7400E40E2B /* XLJFourController.m in Sources */,
+				17DCDFAB1DB4BFF000AF3EF6 /* XLJTabBarController.m in Sources */,
+				17DCDFB11DB4C18400AF3EF6 /* UIBarButtonItem+XLJButtonItem.m in Sources */,
+				17828E461DB5FE8D00E40E2B /* XLJFiveController.m in Sources */,
+				17828E3A1DB5FE4800E40E2B /* XLJFirstController.m in Sources */,
+				17828E4F1DB76CA700E40E2B /* XLJTestGepController.m in Sources */,
+				17828E361DB5FD7000E40E2B /* XLJTabBar.m in Sources */,
+				17828E4C1DB70FF700E40E2B /* XLJTabBarButton.m in Sources */,
+				17828E3D1DB5FE5800E40E2B /* XLJSecondController.m in Sources */,
+				17DCDF6E1DB4BF2E00AF3EF6 /* main.m in Sources */,
+				17828E401DB5FE6300E40E2B /* XLJThirdController.m in Sources */,
+				17828E491DB5FEFA00E40E2B /* XLJBaseController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DCDF7E1DB4BF2E00AF3EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DCDF871DB4BF2E00AF3EF6 /* XLJSegScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DCDF891DB4BF2E00AF3EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DCDF921DB4BF2E00AF3EF6 /* XLJSegScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17DCDF841DB4BF2E00AF3EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DCDF681DB4BF2E00AF3EF6 /* XLJSegScrollView */;
+			targetProxy = 17DCDF831DB4BF2E00AF3EF6 /* PBXContainerItemProxy */;
+		};
+		17DCDF8F1DB4BF2E00AF3EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DCDF681DB4BF2E00AF3EF6 /* XLJSegScrollView */;
+			targetProxy = 17DCDF8E1DB4BF2E00AF3EF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17DCDF7A1DB4BF2E00AF3EF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DCDF7B1DB4BF2E00AF3EF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17DCDF941DB4BF2E00AF3EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17DCDF951DB4BF2E00AF3EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17DCDF971DB4BF2E00AF3EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLJSegScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJSegScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17DCDF981DB4BF2E00AF3EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLJSegScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJSegScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17DCDF9A1DB4BF2E00AF3EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLJSegScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJSegScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLJSegScrollView.app/XLJSegScrollView";
+			};
+			name = Debug;
+		};
+		17DCDF9B1DB4BF2E00AF3EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLJSegScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJSegScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLJSegScrollView.app/XLJSegScrollView";
+			};
+			name = Release;
+		};
+		17DCDF9D1DB4BF2E00AF3EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLJSegScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJSegScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLJSegScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		17DCDF9E1DB4BF2E00AF3EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLJSegScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJSegScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLJSegScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DCDF641DB4BF2E00AF3EF6 /* Build configuration list for PBXProject "XLJSegScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DCDF941DB4BF2E00AF3EF6 /* Debug */,
+				17DCDF951DB4BF2E00AF3EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DCDF961DB4BF2E00AF3EF6 /* Build configuration list for PBXNativeTarget "XLJSegScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DCDF971DB4BF2E00AF3EF6 /* Debug */,
+				17DCDF981DB4BF2E00AF3EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DCDF991DB4BF2E00AF3EF6 /* Build configuration list for PBXNativeTarget "XLJSegScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DCDF9A1DB4BF2E00AF3EF6 /* Debug */,
+				17DCDF9B1DB4BF2E00AF3EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DCDF9C1DB4BF2E00AF3EF6 /* Build configuration list for PBXNativeTarget "XLJSegScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DCDF9D1DB4BF2E00AF3EF6 /* Debug */,
+				17DCDF9E1DB4BF2E00AF3EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DCDF611DB4BF2E00AF3EF6 /* Project object */;
+}
