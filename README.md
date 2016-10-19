@@ -35,9 +35,10 @@
 
 }
 
+```
+
 ####二、设置自定义tabBar
 
-```
 ```
 //自定义tabBar,自定义的方法类似
 - (void)setUpTabBar
